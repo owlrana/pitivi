@@ -12,8 +12,6 @@ variables:
 
 
 .docker_image_template:
-  tags:
-    - privileged
   image: docker:latest
   variables:
     DOCKER_DRIVER: overlay2
@@ -30,7 +28,7 @@ variables:
 
     - env
 
-    - docker run --privileged --name ${TMPIMAGENAME} ${BASE_IMAGE} bash -c "${CLONE_PITIVI} && ${BUILD_PITIVI} && rm -Rf ${BUILDDIR}"
+    - docker run --name ${TMPIMAGENAME} ${BASE_IMAGE} bash -c "${CLONE_PITIVI} && ${BUILD_PITIVI} && rm -Rf ${BUILDDIR}"
     - docker commit ${TMPIMAGENAME} ${IMAGE}
     - docker rm ${TMPIMAGENAME}
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
