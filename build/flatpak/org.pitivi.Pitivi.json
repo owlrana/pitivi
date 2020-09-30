@@ -350,7 +350,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git"
                 }
             ]
@@ -368,7 +368,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-base.git"
                 }
             ]
@@ -384,7 +384,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-good.git"
                 }
             ]
@@ -400,7 +400,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-ugly.git"
                 }
             ]
@@ -417,7 +417,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad.git"
                 }
             ]
@@ -433,7 +433,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "disable-shallow-clone": true,
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-libav.git"
                 },
@@ -462,7 +462,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-python.git"
                 }
             ]
@@ -478,7 +478,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-devtools.git"
                 }
             ]
@@ -494,7 +494,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer-vaapi.git"
                 }
             ]
@@ -510,7 +510,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "branch": "master",
+                    "branch": "1.18",
                     "url": "https://gitlab.freedesktop.org/gstreamer/gst-editing-services.git"
                 }
             ]
